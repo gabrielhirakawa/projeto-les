@@ -3,7 +3,7 @@
 <head>
 	<title>E-commerce</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="style-carrinho.css">
+  <link rel="stylesheet" type="text/css" href="style-troca.css">
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -53,51 +53,36 @@
 	
 </div>
 
-<h2 id="car">Meu Carrinho</h2>
 
-<table class="table">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Produto</th>
-      <th scope="col">Descrição</th>
-      <th scope="col">Preço</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td><img src="prod\cup.jpg" class="prods"></td>
-      <td>Cuphead</td>
-      <td>15,00
-      <br><a href="#">remover</a></td></tr>
-    <tr>
-      <th scope="row">2</th>
-      <td><img src="prod\light.jpg" class="prods"></td>
-      <td>Light Fall</td>
-      <td>15,00
-      <br><a href="#">remover</a></td></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td><img src="prod\dont.jpg" class="prods"></td>
-      <td>Don't Starve</td>
-      <td>15,00
-      <br><a href="#">remover</a></td></td>
-     
-    </tr>
-  </tbody>
-</table>
+<h2 id="troca">Troca/Devolução</h2>
 
-
-
- <div class="container">
-  <div class="row">
-    <div class="col">
-     Total: $ 45,00
-    </div>
-    <div class="col" id="finalizar">
-      <button type="submit" class="btn btn-primary">Finalizar Compra</button>
-    </div>
+<form id="form-troca">
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Ação</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Troca</option>
+      <option>Devolução</option>
+    </select>
   </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Compra</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>2548857</option>
+      <option>5993487</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlFile1">Anexar</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Motivo</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+  
+  <button type="submit" class="btn btn-primary">Solicitar</button>
+</form>
