@@ -1,0 +1,70 @@
+#titulo{
+	font-size: 50px;
+	margin-bottom: 10px;
+
+}
+
+#divBusca{
+	margin-top: 20px;
+	margin-left: 40%;
+	align-content: center;
+	background-color:#2F4F4F;
+	border:solid 1px;
+	border-radius:15px;
+	width:300px;
+		}
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:260px;
+}
+#btnBusca{
+	max-width: 25px;
+}
+
+#menu li{
+	font-size: 25px;
+	display: inline-block;
+	margin-right: 15px;
+	text-decoration: none;
+}
+
+.header{
+	text-align: center;
+	padding: 20px;
+	background-color: #b3d9ff;
+}
+
+.content{
+	text-align: center;
+	padding: 40px;
+	background-color: #c2d6d6;
+}
+
+.game{
+	margin-right: 20px;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.game b{
+	font-size: 110%;
+	font-weight: 600;
+}
+
+#footer{
+	text-align: center;
+	padding: 100px;
+	background-color: #8cd9b3;
+	font-size: 30px;
+}
+
+#form{
+	padding-top: 30px;
+	margin-left: 35%;
+}
