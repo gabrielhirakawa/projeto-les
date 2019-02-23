@@ -1,0 +1,31 @@
+.container{
+	margin-top: 40px;
+}
+
+.container label{
+	font-weight: 700;
+}
+
+#dados-user{
+	margin-top: 50px;
+}
+
+
+
+#avatar{
+	max-height: 200px;
+}
+
+#col-avatar{
+	text-align: center;
+}
+
+#pedidos{
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+#content-pedidos{
+margin-bottom: 30px;
+}
