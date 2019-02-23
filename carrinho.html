@@ -3,6 +3,7 @@
 <head>
 	<title>E-commerce</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style-carrinho.css">
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -24,11 +25,11 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
       <li class="nav-item">
-        <a class="nav-link" href="carrinho.html">Carrinho</a>
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="carrinho.html">Carrinho <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="cadastro.html">Login</a>
@@ -52,52 +53,51 @@
 	
 </div>
 
+<h2 id="car">Meu Carrinho</h2>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Produto</th>
+      <th scope="col">Descrição</th>
+      <th scope="col">Preço</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><img src="prod\cup.jpg" class="prods"></td>
+      <td>Cuphead</td>
+      <td>15,00
+      <br><a href="#">remover</a></td></tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><img src="prod\light.jpg" class="prods"></td>
+      <td>Light Fall</td>
+      <td>15,00
+      <br><a href="#">remover</a></td></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><img src="prod\dont.jpg" class="prods"></td>
+      <td>Don't Starve</td>
+      <td>15,00
+      <br><a href="#">remover</a></td></td>
+     
+    </tr>
+  </tbody>
+</table>
 
 
-<div class="content">
-	<div class="game">
-		<img src="prod\dont.jpg">
-		<br>
-		<b>Don't starve together</b>
-		<br>
-		$15,00 <a href="#">add item</a>
-		
-	</div>
-	
-	<div class="game">
-		<img src="prod\dead.jpg">
-		<br>
-		<b>Dead Cell's</b>
-		<br>
-		$15,00 <a href="#">add item</a>
-		
-	</div>
 
-	<div class="game">
-		<img src="prod\cup.jpg">
-		<br>
-		<b>Cuphead</b>
-		<br>
-		$15,00 <a href="#">add item</a>
-		
-	</div>
-
-	<div class="game">
-		<img src="prod\light.jpg">
-		<br>
-		<b>Light Fall</b>
-		<br>
-		$15,00 <a href="#">add item</a>
-		
-	</div>
-
-
-</div>
-
-
-<div id="footer">
-	FINGE Q TEM UM RODAPÉ AQUI
-</div>
-
-</body>
-</html>
+ <div class="container">
+  <div class="row">
+    <div class="col">
+     Total: $ 45,00
+    </div>
+    <div class="col">
+      <button type="submit" class="btn btn-primary">Finalizar</button>
+    </div>
+  </div>

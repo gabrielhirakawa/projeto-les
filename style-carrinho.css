@@ -1,0 +1,15 @@
+#car{
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+
+.prods{
+	max-height: 80px;
+}
+
+.container{
+	font-size: 35px;
+	margin-bottom: 25px;
+	background-color: #cccccc;
+	padding: 20px;
+}

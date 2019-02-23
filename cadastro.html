@@ -4,6 +4,7 @@
 	<title>E-commerce</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 
@@ -14,45 +15,94 @@
 	
 	<h1 id="titulo">E-commerce</h1>
 
-	<div id="menu">
-		<ul>
-			<li><a href="index.html">Inicio</a></li>
-			<li><a href="carrinho.html">Carrinho</a></li>
-			<li><a href="cadastro.html">Cadastro</a></li>
-			<li><a href="#">Minha Conta</a></li>
-			<li><a href="#">Sair</a></li>
-			
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+  
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   		 <span class="navbar-toggler-icon"></span>
+  	</button>
 
-		</ul>
-	</div>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="carrinho.html">Carrinho</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="cadastro.html">Login<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="account.html">Minha Conta</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sair</a>
+      </li>
+     
+      
 
-
-	<div id="divBusca">
-  		<input type="text" id="txtBusca" placeholder="Buscar..."/>
- 		 <img src="lupa.png" id="btnBusca" />
-	</div>
-
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
 	
 </div>
 
 
-<form id="form" name="formulario" action="http://scripts.redehost.com.br/formmail.aspx" method="post">
-<input type=hidden name="destino" value="EmailQueVaiReceberAsMensagens">
-<input type=hidden name="enviado" value="http://www.seudominio.xxx.yy/enviado.htm">
-<p><b>Nome:</b><br>
-<input type=text name="nome" size="45"></p><br>
-<p><b>Telefone:</b><br>
-<input type=text name="tel" size="45"></p><br>
-<p><b>CPF:</b><br>
-<input type=text name="cpf" size="45"></p><br>
-<p><b>Email:</b><br>
-<input type=text name="email" size="45"></p><br>
-<p><b>Senha:</b><br>
-<input type=text name="pass" size="45"></p><br>
-<p><input type="submit" value="Cadastrar"></p>
+<div class="container">
+  <div class="row">
+    <div class="col">
+    	<h2>Já possui cadastro?</h2>
+	    <form>
+			<div class="form-group">
+			    <label for="exampleInputEmail1">Email</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+			</div>
+			<div class="form-group">
+			    <label for="exampleInputPassword1">Senha</label>
+			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			</div>
+			  <div class="form-group form-check">
+			    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+			    <label class="form-check-label" for="exampleCheck1">Lembrar</label>
+			</div>
+			  <button type="submit" class="btn btn-primary">Login</button>
+		</form>
+    </div>
+    <div class="col">
+    	<h2>Cadastre agora!</h2>
+      <form>
+      	<div class="form-group">
+      		
+			<input type="text" class="form-control" placeholder="Nome">
+		</div>
+		<div class="form-group">
+			
+			<input type="text" class="form-control" placeholder="Telefone">
+		</div>
+		<div class="form-group">
+			
+			<input type="text" class="form-control" placeholder="CPF">
+		</div>
+		<div class="form-group">
+			
+			<input type="text" class="form-control" placeholder="Email">
+		</div>
+		<div class="form-group">
+			
+			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+		</div>
+		<button type="submit" class="btn btn-primary">Cadastrar!</button>
+	</form>
+
+    </div> 
+  </div>
+</div>
 
 
-</form>
 
 
 

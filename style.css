@@ -1,49 +1,22 @@
 #titulo{
 	font-size: 50px;
 	margin-bottom: 10px;
+	color: #Fff;
 
 }
 
-#divBusca{
-	margin-top: 20px;
-	margin-left: 40%;
-	align-content: center;
-	background-color:#2F4F4F;
-	border:solid 1px;
-	border-radius:15px;
-	width:300px;
-		}
-#txtBusca{
-  float:left;
-  background-color:transparent;
-  padding-left:5px;
-  font-style:italic;
-  font-size:18px;
-  border:none;
-  height:32px;
-  width:260px;
-}
-#btnBusca{
-	max-width: 25px;
-}
 
-#menu li{
-	font-size: 25px;
-	display: inline-block;
-	margin-right: 15px;
-	text-decoration: none;
-}
 
 .header{
 	text-align: center;
 	padding: 20px;
-	background-color: #b3d9ff;
+	background-color: #8c8c8c;
 }
 
 .content{
 	text-align: center;
 	padding: 40px;
-	background-color: #c2d6d6;
+	background-color: #b3b3b3;
 }
 
 .game{
@@ -60,11 +33,10 @@
 #footer{
 	text-align: center;
 	padding: 100px;
-	background-color: #8cd9b3;
+	background-color: #8c8c8c;
 	font-size: 30px;
 }
 
-#form{
-	padding-top: 30px;
-	margin-left: 35%;
+.container{
+	padding-top: 20px;
 }
