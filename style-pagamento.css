@@ -1,0 +1,28 @@
+#pag{
+	margin-top: 25px;
+	text-align: center;
+}
+
+#cartoes li{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+#cartoes{
+	text-align: center;
+}
+
+.container{
+	text-align: center;
+	
+}
+
+#pagme{
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+#total{
+	font-size: 28px;
+	margin-bottom: 10px;
+}

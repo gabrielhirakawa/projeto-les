@@ -56,58 +56,91 @@
 	
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col" id="col-avatar">
-      <img src="prod/avatar.png"  id="avatar">
-    </div>
-    <div class="col" id="dados-user">
-      <label>Nome:</label> Gabriel Hirakawa <a href="#">editar</a><br>
-      <label>Tel:</label> 11 91111-1111 <a href="#">editar</a><br>
-      <label>CPF:</label> 472.472.888-00 <a href="#">editar</a><br>
-      <label>E-mail</label> 123@123.com <a href="#">editar</a><br>
-      <label>Senha: </label> ******* <a href="#">editar</a><br>
-
-    </div>
-  </div>
-</div>
-
-  <div class="container">
-    <h2  id="pedidos">Minhas compras</h2>
 
 
-    <table class="table">
+ <div class="container">
+    <h2  id="pedidos">Produtos</h2>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Codigo do Produto" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Consultar</button>
+    </form>
+
+
+    <table class="table"  style="margin-top: 20px;">
       <thead class="thead-dark">
         <tr>
           <th scope="col">#</th>
           <th scope="col">Codigo</th>
-          <th scope="col">Valor Total</th>
-          <th scope="col">Data</th>
+          <th scope="col">Nome</th>
+          <th scope="col">Preço</th>
+          <th scope="col">Desconto</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <th scope="row">1</th>
-          <td>2548857</td>
-          <td>$35,00</td>
-          <td>15/01/2019</td>
+          <td><img src="prod\dont.jpg" class="prods"></td>
+          <td>Don't Starve<br><a href="#">editar</a></td>
+          <td>$15,00</td>
+          <td>0</td>
         </tr>
         <tr>
           <th scope="row">2</th>
-          <td>5993487</td>
-          <td>$15,00</td>
-          <td>22/02/2019</td>
+          <td><img src="prod\dead.jpg" class="prods"></td>
+          <td>Dead Cell's<br><a href="#">editar</a></td>
+          <td>$40,00</td>
+          <td>10%</td>
         </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td><img src="prod\cup.jpg" class="prods"></td>
+          <td>Cuphead<br><a href="#">editar</a></td>
+          <td>$15,00</td>
+          <td>0</td>
+        </tr>
+         <tr>
+          <th scope="row">4</th>
+          <td><img src="prod\meat.jpg" class="prods"></td>
+          <td>Super Meat Boy<br><a href="#">editar</a></td>
+          <td>$25,00</td>
+          <td>5%</td>
+        </tr>
+         <tr>
+          <th scope="row">5</th>
+          <td><img src="prod\terraria.jpg" class="prods"></td>
+          <td>Terraria<br><a href="#">editar</a></td>
+          <td>$40,00</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td><img src="prod\Jorney.jpg" class="prods"></td>
+          <td>Journey<br><a href="#">editar</a></td>
+          <td>$35,00</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td><img src="prod\wehappy.jpg" class="prods"></td>
+          <td>We Happy Few<br><a href="#">editar</a></td>
+          <td>$15,00</td>
+          <td>0</td>
+        </tr>
+       
+       <tr>
+          <th scope="row">8</th>
+          <td><img src="prod\light.jpg" class="prods"></td>
+          <td>Light Fall<br><a href="#">editar</a></td>
+          <td>$15,00</td>
+          <td>0</td>
+        </tr>
+       
        
       </tbody>
     </table>
   </div>
 
-  <div id="linktroca">
-    <a href="troca.html">Solicitar Troca/Devolução</a>
-  </div>
 
- 
 
 </body>
 </html>

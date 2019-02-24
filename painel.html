@@ -3,7 +3,7 @@
 <head>
 	<title>E-commerce</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="style-perfil.css">
+  <link rel="stylesheet" type="text/css" href="style-painel.css">
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -28,8 +28,8 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item ">
-        <a class="nav-link" href="index.html">Home</a>
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="carrinho.html">Carrinho</a>
@@ -37,8 +37,8 @@
       <li class="nav-item">
         <a class="nav-link" href="cadastro.html">Login</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="account.html">Minha Conta <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="account.html">Minha Conta</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Sair</a>
@@ -56,58 +56,25 @@
 	
 </div>
 
+<h2 id="titulo-adm">Painel Administrativo</h2>
+
 <div class="container">
   <div class="row">
-    <div class="col" id="col-avatar">
-      <img src="prod/avatar.png"  id="avatar">
+    <div class="col">
+      <a href="novoprod.html">Cadastrar produto</a>
     </div>
-    <div class="col" id="dados-user">
-      <label>Nome:</label> Gabriel Hirakawa <a href="#">editar</a><br>
-      <label>Tel:</label> 11 91111-1111 <a href="#">editar</a><br>
-      <label>CPF:</label> 472.472.888-00 <a href="#">editar</a><br>
-      <label>E-mail</label> 123@123.com <a href="#">editar</a><br>
-      <label>Senha: </label> ******* <a href="#">editar</a><br>
-
+    <div class="col">
+      <a href="vendas.html">Consultar Vendas</a>
+    </div>
+    <div class="col">
+      <a href="produtos.html">Consultar produtos</a>
+    </div>
+    <div class="col">
+      <a href="solicitacoes.html">Solicitações</a>
     </div>
   </div>
 </div>
 
-  <div class="container">
-    <h2  id="pedidos">Minhas compras</h2>
-
-
-    <table class="table">
-      <thead class="thead-dark">
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">Codigo</th>
-          <th scope="col">Valor Total</th>
-          <th scope="col">Data</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>2548857</td>
-          <td>$35,00</td>
-          <td>15/01/2019</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>5993487</td>
-          <td>$15,00</td>
-          <td>22/02/2019</td>
-        </tr>
-       
-      </tbody>
-    </table>
-  </div>
-
-  <div id="linktroca">
-    <a href="troca.html">Solicitar Troca/Devolução</a>
-  </div>
-
- 
 
 </body>
 </html>

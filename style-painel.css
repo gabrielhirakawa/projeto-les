@@ -1,0 +1,16 @@
+.container{
+	margin-top: 40px;
+}
+
+.col a{
+	background-color: #ccc;
+	padding: 20px;
+	color: #000;
+	font-size: 20px;
+}
+
+#titulo-adm{
+	margin-top: 25px;
+	text-align: center;
+	color: #000;
+}

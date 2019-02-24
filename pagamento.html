@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-commerce</title>
+  <meta charset="utf-8">>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style-pagamento.css">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+
+  <div class="header">
+
+   <h1 id="titulo">E-commerce</h1>
+   <div id="linkadm">
+    <a href="painel.html" style="color:#fff;">Painel adm</a>
+  </div>
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="carrinho.html">Carrinho <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cadastro.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="account.html">Minha Conta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sair</a>
+        </li>
+
+
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+</div>
+
+<h2 id="pag">Finalizar Compra</h2>
+
+<div class="container">
+
+  <ul id="cartoes">
+    <li>
+      <img src="prod/card_visa.png">
+      <input type="radio" name="optradio" checked> 
+    </li>
+    <li>
+      <img src="prod/card_master.png">
+      <input type="radio" name="optradio" checked> 
+    </li>
+    <li>
+      <img src="prod/card_hiper.png">
+      <input type="radio" name="optradio" checked> 
+    </li>
+
+  </ul>
+
+  <div class="container"id="pagme">
+    <form>
+      <div class="form-group">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nome do Titular">
+      </div>
+      <div class="form-row">
+        <div class="col-7">
+          <input type="text" class="form-control" placeholder="Número do Cartão">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Mes">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Ano">
+        </div>
+      </div>
+     
+      <div class="form-group">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="CCV" style="width:100px; margin-top: 13px;">
+      </div>
+      <div class="form-group" >
+        <select class="form-control" id="exampleFormControlSelect1" style="width:100px;">
+          <option>1x</option>
+          <option>2x</option>
+          <option>3x</option>
+          <option>4x</option>
+          <option>5x</option>
+        </select>
+      </div>
+      <label id="total">Total: $45,00</label><br>
+      <button type="submit" class="btn btn-primary">Finalizar</button>
+    </form>
+    
+  </div>
+  
+</div>

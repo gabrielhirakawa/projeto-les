@@ -15,7 +15,7 @@
 
 .content{
 	text-align: center;
-	padding: 40px;
+	padding-top: 40px;
 	background-color: #b3b3b3;
 }
 
@@ -37,6 +37,17 @@
 	font-size: 30px;
 }
 
+#content2{
+	padding-bottom: 50px;
+}
+
 .container{
-	padding-top: 20px;
+	padding: 20px;
+}
+.prods{
+	max-height: 80px;
+}
+
+#linkadm{
+	text-align: right;
 }
